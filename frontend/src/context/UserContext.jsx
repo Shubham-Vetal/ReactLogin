@@ -16,7 +16,7 @@ export const UserProvider = ({ children }) => {
   const login = async (email, password) => {
     setIsLoading(true);
     try {
-      const res = await axios.post('http://localhost:4000/api/login', {
+      const res = await axios.post('https://reactlogin-backend.onrender.com/api/login', {
         email,
         password,
       });
@@ -46,7 +46,7 @@ export const UserProvider = ({ children }) => {
   const register = async (userData) => {
     setIsLoading(true);
     try {
-      const res = await axios.post('http://localhost:4000/api/register', userData);
+      const res = await axios.post('https://reactlogin-backend.onrender.com/api/register', userData);
       if (res.data.success === 'true') {
         setUser(res.data.user);
         localStorage.setItem('popx_user', JSON.stringify(res.data.user));
