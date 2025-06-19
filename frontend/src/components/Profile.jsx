@@ -21,7 +21,7 @@ const Profile = () => {
 
   return (
     <>
-      <div className="w-full h-[68px] bg-white absolute top-0 left-0">
+      <div className="w-full h-[68px] bg-white absolute top-0 left-0 px-[24px]">
         <p className="text-[18px] pl-[15px] pt-[27px]">Account Settings</p>
       </div>
 

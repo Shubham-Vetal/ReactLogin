@@ -52,7 +52,7 @@ const Signup = () => {
 
   return (
     <>
-      <div className="flex flex-col h-full gap-[31px] justify-start">
+      <div className="flex flex-col h-full gap-[31px] justify-start px-[24px]">
         <div className="text-primary text-[1.75rem] font-medium leading-9 h-[69px] w-[188px] mt-5 mb-0.5">
           Create your PopX account
         </div>

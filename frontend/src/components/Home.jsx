@@ -13,9 +13,9 @@ const Home = () => {
   const { user } = useContext(UserContext);
 
   return (
-    <div className="flex flex-col h-full gap-[29px] justify-end pb-[21px]">
+    <div className="px-[24px] py-[56px] flex flex-col justify-end h-full gap-[16px]">
       <div>
-        <div className="font-medium text-[28px] w-[231px] h-[33px] mb-2.5 text-primary">
+        <div className="font-normal text-[28px] w-[231px] h-[33px] mb-2.5 text-primary">
           Welcome to PopX
         </div>
         <p className="w-[232px] h-[48px] text-[18px] text-primary opacity-60">

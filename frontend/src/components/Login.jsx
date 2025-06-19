@@ -47,7 +47,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex flex-col h-full gap-[33px] justify-start">
+    <div className="flex flex-col h-full gap-[33px] justify-start px-[24px]">
       <div className="flex flex-col gap-[14px]">
         <div className="text-primary text-[1.75rem] font-medium leading-9 h-[69px] w-[188px] mt-5">
           Signin to your PopX account
