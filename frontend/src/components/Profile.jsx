@@ -3,6 +3,7 @@ import ellipseImg from "../assets/images/Ellipse.png";
 import cameraSvg from "../assets/images/camera.svg";
 import { UserContext } from "../context/UserContext";
 import { Navigate } from "react-router-dom";
+//
 const Profile = () => {
   const { user, logout } = useContext(UserContext);
 

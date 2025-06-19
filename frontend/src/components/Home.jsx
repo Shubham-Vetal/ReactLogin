@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 import { Navigate, useNavigate } from "react-router-dom";
-
+//
 const Home = () => {
   const login = () => {
     user ? navigate("/profile") : navigate("/login");
